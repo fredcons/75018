@@ -1,0 +1,247 @@
+/* line 17, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-1.9.3-p125/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../../app/styles/sass/main.scss */
+body {
+  color: "#1ef1ef";
+}
+
+@font-face {
+  font-family: "OstrichSans-Black";
+  src: url('/styles/fonts/OstrichSans-Black.otf');
+}
+
+/* line 18, ../../app/styles/sass/main.scss */
+.OstrichSans-Black {
+  font-family: "OstrichSans-Black";
+  font-size: 72px;
+}
+
+@font-face {
+  font-family: "OstrichSans-Bold";
+  src: url('/styles/fonts/OstrichSans-Bold.otf');
+}
+
+/* line 18, ../../app/styles/sass/main.scss */
+.OstrichSans-Bold {
+  font-family: "OstrichSans-Bold";
+  font-size: 72px;
+}
+
+@font-face {
+  font-family: "OstrichSans-Light";
+  src: url('/styles/fonts/OstrichSans-Light.otf');
+}
+
+/* line 18, ../../app/styles/sass/main.scss */
+.OstrichSans-Light {
+  font-family: "OstrichSans-Light";
+  font-size: 72px;
+}
+
+@font-face {
+  font-family: "OstrichSans-Medium";
+  src: url('/styles/fonts/OstrichSans-Medium.otf');
+}
+
+/* line 18, ../../app/styles/sass/main.scss */
+.OstrichSans-Medium {
+  font-family: "OstrichSans-Medium";
+  font-size: 72px;
+}
+
+@font-face {
+  font-family: "OstrichSansDashed-Medium";
+  src: url('/styles/fonts/OstrichSansDashed-Medium.otf');
+}
+
+/* line 18, ../../app/styles/sass/main.scss */
+.OstrichSansDashed-Medium {
+  font-family: "OstrichSansDashed-Medium";
+  font-size: 72px;
+}
+
+@font-face {
+  font-family: "OstrichSansInline-Italic";
+  src: url('/styles/fonts/OstrichSansInline-Italic.otf');
+}
+
+/* line 18, ../../app/styles/sass/main.scss */
+.OstrichSansInline-Italic {
+  font-family: "OstrichSansInline-Italic";
+  font-size: 72px;
+}
+
+@font-face {
+  font-family: "OstrichSansInline-Regular";
+  src: url('/styles/fonts/OstrichSansInline-Regular.otf');
+}
+
+/* line 18, ../../app/styles/sass/main.scss */
+.OstrichSansInline-Regular {
+  font-family: "OstrichSansInline-Regular";
+  font-size: 72px;
+}
+
+@font-face {
+  font-family: "OstrichSansRounded-Medium";
+  src: url('/styles/fonts/OstrichSansRounded-Medium.otf');
+}
+
+/* line 18, ../../app/styles/sass/main.scss */
+.OstrichSansRounded-Medium {
+  font-family: "OstrichSansRounded-Medium";
+  font-size: 72px;
+}
+
+@font-face {
+  font-family: "RalewayThin";
+  src: url('/styles/fonts/RalewayThin.otf');
+}
+
+/* line 18, ../../app/styles/sass/main.scss */
+.RalewayThin {
+  font-family: "RalewayThin";
+  font-size: 72px;
+}
+
+/* line 24, ../../app/styles/sass/main.scss */
+header {
+  font-family: "OstrichSans-Bold";
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: solid 1px black;
+  height: 100px;
+}
+/* line 31, ../../app/styles/sass/main.scss */
+header div.title, header div.subtitle {
+  font-family: inherit;
+  margin-top: 0px;
+  margin-bottom: 0spx;
+  vertical-align: middle;
+}
+@media screen and (max-width: 1024px) {
+  /* line 40, ../../app/styles/sass/main.scss */
+  header div.title {
+    font-size: 52px;
+    line-height: 54px;
+    float: none;
+    width: 100%;
+    height: 56%;
+  }
+  /* line 48, ../../app/styles/sass/main.scss */
+  header div.subtitle {
+    font-size: 40px;
+    line-height: 42px;
+    float: none;
+    width: 100%;
+    height: 44%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  /* line 59, ../../app/styles/sass/main.scss */
+  header div.title, header div.subtitle {
+    font-size: 72px;
+    line-height: 100px;
+    width: 50%;
+    height: 100%;
+  }
+  /* line 66, ../../app/styles/sass/main.scss */
+  header div.title {
+    text-align: left;
+    float: right;
+  }
+  /* line 71, ../../app/styles/sass/main.scss */
+  header div.subtitle {
+    text-align: right;
+    float: left;
+  }
+}
+
+/* line 79, ../../app/styles/sass/main.scss */
+#map {
+  width: 100%;
+  bottom: 50px;
+  top: 100px;
+  position: absolute;
+  display: block;
+  float: none;
+  clear: both;
+}
+
+/* line 89, ../../app/styles/sass/main.scss */
+footer {
+  height: 50px;
+  width: 100%;
+  border-top: solid 1px black;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  float: none;
+}
+/* line 98, ../../app/styles/sass/main.scss */
+footer div {
+  text-align: center;
+}
