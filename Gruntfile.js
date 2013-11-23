@@ -79,6 +79,7 @@ module.exports = function (grunt) {
                         '*.{ico,png,txt}',
                         '*.html',
                         'scripts/{,*/}*.js',
+                        'web.js',
                         '.htaccess',
                         //'images/{,*/}*.{webp,gif}',
                         'images/**',
@@ -106,6 +107,13 @@ module.exports = function (grunt) {
                 cwd: 'node_modules',
                 dest: '<%= target %>/node_modules',
                 src: '*'
+            },
+            heroku: {
+                expand: true,
+                dot: true,
+                cwd: '',
+                dest: '<%= target %>/',
+                src: 'Procfile'
             }
         },
 
