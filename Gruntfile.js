@@ -99,6 +99,13 @@ module.exports = function (grunt) {
                 cwd: '<%= source %>/bower_components',
                 dest: '<%= target %>/bower_components',
                 src: '*'
+            },
+            modules: {
+                expand: true,
+                dot: true,
+                cwd: 'node_modules',
+                dest: '<%= target %>/node_modules',
+                src: '*'
             }
         },
 
