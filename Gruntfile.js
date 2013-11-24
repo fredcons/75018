@@ -108,6 +108,13 @@ module.exports = function (grunt) {
                 dest: '<%= target %>/node_modules',
                 src: '*'
             },
+            npm: {
+              expand: true,
+                dot: true,
+                cwd: '',
+                dest: '<%= target %>/',
+                src: 'package.json'
+            },
             heroku: {
                 expand: true,
                 dot: true,
