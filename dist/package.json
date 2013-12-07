@@ -33,6 +33,10 @@
     "time-grunt": "~0.1.1",
     "grunt-webp": "~0.0.1",
     "grunt-autoshot": "~0.0.2",
-    "load-grunt-tasks": "~0.1.0"
+    "load-grunt-tasks": "~0.1.0",
+    "grunt-cli": "~0.1.10"
+  },
+  "scripts": {
+    "test": "grunt build --verbose"
   }
 }
