@@ -3,6 +3,7 @@ deploy:
   api_key: 
     secure: b/07W6bNLVijcU8yn/C8kPhGeCsawMgLpvJllkPniyWsfrOXCL7putm4A0wn3kurXY84ID/dxaQ8DVzJ2RuUmvtszm2aCuuGNUuwJBAuNxak3UcJMKGds3PRCGSUzxRcMt4eUJjEE5+W4tH/DGSmjGqNvP11fVi2oFkGXq6FkgI=
   app: montmartre  
+  run: "git subtree push --prefix=dist heroku master"
 node_js: 
 - "0.10"
 before_script: 
